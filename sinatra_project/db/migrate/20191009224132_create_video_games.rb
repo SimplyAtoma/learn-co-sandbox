@@ -4,6 +4,7 @@ class CreateVideoGames < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :console
     end
+  end
   def up
     create_table :video_games do |t|
       t.string :name

@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2019_10_09_224132) do
   create_table "video_games", force: :cascade do |t|
     t.string "name"
     t.string "console"
+    t.string "genre"
   end
 
 end

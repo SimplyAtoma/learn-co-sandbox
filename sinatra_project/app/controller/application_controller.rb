@@ -4,8 +4,14 @@ class ApplicationController < Sinatra::Base
   	set :views, "sinatra_project/app/views"
   	set :public_dir, "public"
   end
+  
+  def 
 
   get "/" do
   	erb :index
+  end
+  
+  get "/login" do 
+    erb :login 
   end
 end

@@ -1,4 +1,5 @@
-class Users
+class User
+  has_many :videogames
   attr_accessor :username, :password, :collection
   
   @@all = []
@@ -14,6 +15,14 @@ class Users
   end 
   
   def sign_out
-    @username
+    
+  end
+  
+  def sign_in
+    
+  end 
+  
+  def sign_out
+    
   end
 end 

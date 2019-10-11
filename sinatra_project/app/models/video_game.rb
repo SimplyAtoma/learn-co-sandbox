@@ -1,8 +1,8 @@
-class VideoGames
-  attr_accessor :title, :genre, :console, :user
+class VideoGame
+  belongs_to :user
+  attr_accessor :title, :genre, :console
   
   @@all = []
-  
   def initialize(title, genre, console, user)
     @title = title
     @genre = genre

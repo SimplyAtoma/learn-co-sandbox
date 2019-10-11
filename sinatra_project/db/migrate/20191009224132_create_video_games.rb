@@ -4,6 +4,7 @@ class CreateVideoGames < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :console
       t.string :genre
+      t.integer :user_id
     end
   end
   def up

@@ -14,6 +14,9 @@ class ApplicationController < Sinatra::Base
   get "/login" do 
     erb :login 
   end
+<<<<<<< HEAD
   
   collection "/user" do
+=======
+>>>>>>> d73296281a96130beb23a0fd871b998d73b56f4c
 end

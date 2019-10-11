@@ -9,9 +9,11 @@ class Users
     @@all << self
   end
   
-  def sign_in
+  def sign_in(:username, :password)
     
   end 
   
   def sign_out
+    @username
+  end
 end 

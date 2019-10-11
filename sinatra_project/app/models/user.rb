@@ -1,6 +1,6 @@
 class User
   has_many :videogames
-  attr_accessor :username, :password, :collection
+  attr_accessor :username, :password
   
   @@all = []
   

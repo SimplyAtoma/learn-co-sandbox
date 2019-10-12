@@ -1,6 +1,8 @@
 # SinatraProject
 
-  Hello! This project is a web application that utilizes Sinatra, to create a database app that contains users and a collection of video games they own respectively, and allows the users to change their collection, as well as see what games they own.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sinatra_project`. To experiment with that code, run `bin/console` for an interactive prompt.
+
+TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -17,6 +19,10 @@ And then execute:
 Or install it yourself as:
 
     $ gem install sinatra_project
+
+## Usage
+
+TODO: Write usage instructions here
 
 ## Development
 
